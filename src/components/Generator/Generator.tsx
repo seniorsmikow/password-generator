@@ -29,6 +29,8 @@ const Generator: React.FC<PropsType> = ({passwordsLengthOptions,
     return (
         <div className={styles.root__generator}>
 
+            { copyAnimation ? <div className={styles.copyText}>Copy!!!</div> : null }
+
             <div className={styles.generator__input}>
                 <Input 
                     defaultValue={result}
@@ -62,9 +64,6 @@ const Generator: React.FC<PropsType> = ({passwordsLengthOptions,
                 />
             </div>
 
-            {
-                copyAnimation ? <div>Copy!!!</div> : null
-            }
         </div>
     )
 }

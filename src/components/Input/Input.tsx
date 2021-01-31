@@ -1,5 +1,4 @@
 import React from 'react'
-//import cx from 'clsx'
 import styles from './Input.module.css'
 
 type PropsType = {
