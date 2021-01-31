@@ -1,0 +1,43 @@
+.root__generator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #292929;
+    font-weight: 500;
+}
+
+.generator__input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+}
+
+.generator__copy_icon {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.generator__checkbox {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+    width: 220px;
+}
+
+.generator__select {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.generator__select select {
+    border-radius: 3px;
+}
+
+.generator__button {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}

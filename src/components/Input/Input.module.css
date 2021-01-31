@@ -1,0 +1,13 @@
+.root {
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.input input {
+    width: 350px;
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+}

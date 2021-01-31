@@ -1,0 +1,34 @@
+.button button {
+    background-color: black;
+    color: #ff4343;
+    width: 220px;
+    height: 35px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.button button:active {
+    background-color: rgb(97, 97, 97);
+    transform: scale(1.03);
+}
+
+.button button:hover {
+    animation: button-move 0.2s ease-in-out;
+}
+
+@keyframes button-move {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-2px);
+    }
+    100% {
+        transform: translateX(3px);
+    }
+}
