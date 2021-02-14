@@ -1,6 +1,6 @@
 <h1>Приложение "Генератор паролей"</h1>
 
-![generator_img](https://user-images.githubusercontent.com/47942690/106387976-7833ed00-63ed-11eb-846f-dc535d9e4e99.jpg)
+![generator](https://user-images.githubusercontent.com/47942690/107867978-0d74be00-6e91-11eb-9ec7-db433522c9fc.jpg)
 
 <p>
   Приложение создано с использованием библиотеки React.

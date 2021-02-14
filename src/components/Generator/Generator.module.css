@@ -88,3 +88,27 @@
         transform: scale(1);
     }
 }
+
+@media (max-width: 600px) {
+    .generator__input {
+        width: 350px;
+    }
+}
+
+@media (max-width: 400px) {
+    .generator__copy_icon {
+        cursor: pointer;
+        position: absolute;
+        top: 25%;
+        right: 30px;
+    }
+}
+
+@media (max-width: 320px) {
+    .generator__copy_icon {
+        cursor: pointer;
+        position: absolute;
+        top: 25%;
+        right: 40px;
+    }
+}

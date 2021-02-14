@@ -3,6 +3,36 @@
     width: 800px;
     height: 350px;
     padding-top: 80px;
-    background-color: #ff4343;
-    color: white;
+    background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+    color: #9a0a3f;
+    -webkit-box-shadow: 2px 2px 10px 0px rgba(122, 122, 122, 0.83);
+    -moz-box-shadow:    2px 2px 10px 0px rgba(136, 134, 134, 0.83);
+    box-shadow:         2px 2px 10px 0px rgba(122, 122, 122, 0.83);
+}
+
+@media (max-width: 900px) {
+    .root {
+        width: 600px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 600px) {
+    .root {
+        width: 400px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 400px) {
+    .root {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 320px) {
+    .root {
+        width: 300px;
+    }
 }
